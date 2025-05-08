@@ -1,0 +1,16 @@
+<html>
+<head><title>Video Test</title></head>
+<body> 
+  <video width="640" height="360" controls autoplay muted>
+    <source src="276656_tiny.mp4" type="video/mp4">
+    브라우저가 video 태그를 지원하지 않습니다.
+  </video>
+  <h1>ADDER</h1>
+
+  <form method="GET" action="/cgi-bin/adder">
+    <label>A: <input type="number" name="a" required></label><br>
+    <label>B: <input type="number" name="b" required></label><br><br>
+    <input type="submit" value="sum">
+  </form>
+</body>
+</html>
